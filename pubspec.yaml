@@ -1,6 +1,6 @@
 name: basiq
 description: A Basiq SDK for Flutter.
-version: 0.0.1
+version: 0.1.0-dev.1
 homepage: https://github.com/2shrestha22/basiq
 
 environment:
@@ -10,14 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
   flutter_inappwebview: ^6.0.0-beta.19
   dio: ^4.0.6
   flutter_secure_storage: ^6.1.0
   freezed_annotation: ^2.2.0
   json_annotation: ^4.7.0
-  fresh: ^0.4.1
-  fresh_dio: ^0.3.2
 
 dev_dependencies:
   flutter_test:

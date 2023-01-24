@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+
+analyzer:
+  exclude:
+    # Generated Files
+    # JSON Serializable
+    - lib/**.g.dart
+    # Freezed
+    - lib/**.freezed.dart
+    # GetIt
+    - lib/**.config.dart
+
+  errors:
+    invalid_annotation_target: ignore
